@@ -64,8 +64,8 @@ if(!attached && player != noone)
 	}
 	with(obj_camera)
 	{
-		shakeX =((dist/180)+1) * sin(dir/(2*pi)) 
-		shakeY =((dist/120)+1) * -cos(dir/(2*pi)) 
+		shakeX =((dist/180)+5) * sin(dir/(2*pi)) 
+		shakeY =((dist/120)+5) * -cos(dir/(2*pi)) 
 		
 	}
 }

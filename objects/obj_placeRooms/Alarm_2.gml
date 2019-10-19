@@ -27,25 +27,37 @@ with(all)
 	y+=48
 }
 var flr= 0
-for(var i = 0; i <= roomsWide*(roomWidth/48)+1;i++)
+for(var i = 0; i <= roomsWide*(roomWidth/48);i++)
 {
 	flr = instance_create_depth(i*48,0,depth,obj_floor)	
 	flr.sprite_index = spriteU
+	if(i == 0)
+		flr.sprite_index = spriteUL
+
 }
-for(var i = 0; i <= roomsWide*(roomWidth/48)+1;i++)
+for(var i = 0; i <= roomsWide*(roomWidth/48);i++)
 {
 	flr = instance_create_depth(i*48,roomsHigh*roomHeight+48,depth,obj_floor)	
 	flr.sprite_index = spriteD
+	if(i == 0)
+		flr.sprite_index = spriteDL
 }
 for(var i = 0; i <= roomsHigh*(roomHeight/48)+1;i++)
 {
 	flr = instance_create_depth(0,i*48,depth,obj_floor)	
 	flr.sprite_index = spriteL
+	if(i == 0)
+		flr.sprite_index = spriteUR
 }
 for(var i = 0; i <= roomsHigh*(roomHeight/48)+1;i++)
 {
 	flr = instance_create_depth(roomsWide*roomWidth+48,i*48,depth,obj_floor)	
 	flr.sprite_index = spriteR
+	if(i == 0)
+		flr.sprite_index = spriteUR
+	if(i == roomsHigh*(roomHeight/48)+1)
+		flr.sprite_index = spriteDR
+
 }
 
 

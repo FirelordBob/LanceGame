@@ -26,7 +26,7 @@ currentText = ""
 global.roomGame = room_add()
 room_set_height(global.roomGame,roomHeight*roomsHigh+96)
 room_set_width(global.roomGame,roomWidth*roomsWide+96)
-
+room_set_background_color(global.roomGame,c_black,true)
 roomsFinished = [];
 roomText = []
 for(var i = 0; i < roomsWide; i++)
