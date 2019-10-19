@@ -8,7 +8,7 @@ while(!spotFound)
 with(obj_floor)
 {
 	
-	if(!spotFound && irandom(10) = 0 && y < other.roomHeight && y > other.roomHeight/2 && position_empty(x,y-sprite_height) && position_empty(x-sprite_width,y-sprite_height) && position_empty(x+sprite_width,y-sprite_height) && position_empty(x,y-sprite_height*2))	
+	if(!spotFound && irandom(10) = 0 && y < other.roomHeight*other.roomsHigh && y >other.roomHeight*other.roomsHigh- other.roomHeight/2 && position_empty(x,y-sprite_height) && position_empty(x-sprite_width,y-sprite_height) && position_empty(x+sprite_width,y-sprite_height) && position_empty(x,y-sprite_height*2))	
 	{
 		if(other.roomText[floor(x/other.roomWidth),0] != "D")
 		{
@@ -21,6 +21,25 @@ with(obj_floor)
 }
 player = instance_create_depth(xx,yy,depth-1,obj_player)
 lance = instance_create_depth(xx,yy,depth-1,obj_lance)
+var spotFound = 0
+while(!spotFound)
+{
+with(obj_floor)
+{
+	
+	if(!spotFound && irandom(10) = 0 && y < other.roomHeight && y > other.roomHeight/2 && position_empty(x,y-sprite_height) && position_empty(x-sprite_width,y-sprite_height) && position_empty(x+sprite_width,y-sprite_height) && position_empty(x,y-sprite_height*2))	
+	{
+		if(other.roomText[floor(x/other.roomWidth),0] != "U")
+		{
+		xx = x
+		yy = y-sprite_height
+		spotFound = 1
+		}
+	}
+}
+}
+levelExit = instance_create_depth(xx,yy,depth-1,obj_exit)
+
 with(all)
 {
 	x+=48

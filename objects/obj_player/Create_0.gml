@@ -8,7 +8,7 @@ rightPress = 0
 upPress = 0
 downPress = 0
 spacePress = 0
-
+shiftPress = 0
 coyoteTime =15
 onGround = 0
 hsp = 0
@@ -20,6 +20,8 @@ jumping = 0
 moveSpeed = 3
 hMax = 5
 vMax = 15
-
+lance = noone
+shiftCount = 0
+shiftTime = 100
 camera = instance_create_depth(x,y,depth-1,obj_camera)
 camera.creator = id

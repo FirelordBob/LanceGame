@@ -35,4 +35,8 @@ if(place_meeting(x,y,obj_floor))
 		x = returnX
 		y = returnY
 	}
+	if(position_meeting(x,bbox_top-1,obj_floor))
+	{
+		y+=2	
+	}
 }
