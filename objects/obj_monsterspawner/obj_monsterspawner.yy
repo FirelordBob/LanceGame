@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_monsterspawner",
     "eventList": [
-        
+        {
+            "id": "9a25713d-3992-4e79-8565-4fef79d81b6b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "c649bec0-1062-4e63-95f5-8e0d715ede85"
+        },
+        {
+            "id": "a0fd75e6-b42e-48de-852d-d14e28c1639b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "c649bec0-1062-4e63-95f5-8e0d715ede85"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
