@@ -99,6 +99,7 @@ if (spotChosen && !finished)
 		roomNum = irandom(lRDCount - 1)
 	
 	currentText = "room" + text + string(roomNum)
+	show_debug_message(text + string(roomNum));
 	room_goto(asset_get_index("room" + text + string(roomNum)))
 	roomsFinished[global.roomW,global.roomH] = 1
 	alarm_set(1,2)

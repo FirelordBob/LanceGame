@@ -13,13 +13,13 @@ right = 0
 down = 0
 up = 0
 
-lCount = 1
+lCount = 4
 lDCount = 1
-lUCount = 1
-rCount = 1
+lUCount = 3
+rCount = 4
 rDCount = 1
 rUCount = 1
-lRCount = 1
+lRCount = 6
 lRDCount = 1
 lRUCount = 1
 currentText = ""
