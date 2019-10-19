@@ -10,6 +10,5 @@ spacePress = 0
 shiftPress = 0
 if(image_alpha == 0 && alarm_get(1) != -1) 
 	alarm_set(1,20)
-else if(image_alpha != 0 && alarm_get(1) != -1)
-	alarm_set(1,-1)
+
 
