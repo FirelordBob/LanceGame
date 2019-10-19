@@ -17,11 +17,11 @@ lCount = 4
 lDCount = 4
 lUCount = 4
 rCount = 4
-rDCount = 1
-rUCount = 3
+rDCount = 2
+rUCount = 4
 lRCount = 6
-lRDCount = 1
-lRUCount = 1
+lRDCount = 4
+lRUCount = 5
 currentText = ""
 global.roomGame = room_add()
 room_set_height(global.roomGame,roomHeight*roomsHigh+96)
