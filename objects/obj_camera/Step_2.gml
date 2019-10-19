@@ -6,6 +6,7 @@ var playerHspeed = 0
 with(obj_player)
 {
 	playerHspeed = hsp
+
 	var targetX = (x*3 + mouse_x*2)/5
 	var targetY = (y*3 + mouse_y*2)/5
 	var dist = point_distance(other.x,other.y,targetX,targetY)
