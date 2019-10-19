@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "038d42af-5ed1-4149-8a5b-1d62a6b9f8c7",
+            "Value": {
+                "id": "e2d0d6eb-1e80-46d4-9689-d7b52264f250",
+                "resourcePath": "rooms\\roomRU2\\roomRU2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "08709c6f-2f34-4620-847f-0df7154e9f3f",
+            "Value": {
+                "id": "ada2bb6a-7090-4cfc-bdbb-a9bbfa07fcae",
+                "resourcePath": "rooms\\roomRU1\\roomRU1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "09102ea6-a7c5-42d0-ab67-134246d18df6",
             "Value": {
                 "id": "de7009e8-c117-4cf4-b0ea-b1e5f7d2ef41",
@@ -543,11 +559,27 @@
             }
         },
         {
+            "Key": "9277ddab-72f5-4023-94fe-98cd1a3477d6",
+            "Value": {
+                "id": "adf068c7-f06c-4c11-b6d2-9fa478620c63",
+                "resourcePath": "objects\\obj_floor_mini\\obj_floor_mini.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "40943de2-a4d7-49ae-887a-37fb6482967d",
                 "resourcePath": "options\\tvos\\options_tvos.yy",
                 "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
+            "Key": "93e1f146-fbb8-4be9-9bcb-557e9896887c",
+            "Value": {
+                "id": "71277672-9c44-4808-8328-3b051c0490b2",
+                "resourcePath": "rooms\\roomLD3\\roomLD3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -564,6 +596,14 @@
                 "id": "515fc654-ff92-4c38-bd8b-fd2c41ce3585",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a377c85c-4849-49e3-8cef-055c005e755f",
+            "Value": {
+                "id": "746da6c5-f561-47ba-8326-e806439eb89a",
+                "resourcePath": "rooms\\roomLU3\\roomLU3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -636,6 +676,14 @@
                 "id": "97f7de8c-fca1-469d-82a3-b7c71ff084d2",
                 "resourcePath": "sprites\\spr_spawntreasure\\spr_spawntreasure.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c2162acc-2b65-4a00-93db-e162d5f0fcc2",
+            "Value": {
+                "id": "d53e3562-fb37-4ef1-a080-ec73558b56de",
+                "resourcePath": "rooms\\roomLD1\\roomLD1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -735,6 +783,14 @@
             }
         },
         {
+            "Key": "e3ab0789-2549-453f-a39a-532add309472",
+            "Value": {
+                "id": "bc203aab-1096-4740-aa43-dbb1fdf90fac",
+                "resourcePath": "sprites\\sprite0_mini\\sprite0_mini.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "9be3f56d-79c7-44f0-a87b-1da135c90987",
@@ -795,6 +851,14 @@
             "Value": {
                 "id": "d2d76b4f-be9f-4859-b5f6-8b41cfeab923",
                 "resourcePath": "rooms\\roomL0\\roomL0.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f993b01c-611f-4a24-8da1-ffb71f8e71af",
+            "Value": {
+                "id": "599c1457-52a5-404a-b232-3522d7585ac6",
+                "resourcePath": "rooms\\roomLD2\\roomLD2.yy",
                 "resourceType": "GMRoom"
             }
         },

@@ -14,11 +14,11 @@ down = 0
 up = 0
 
 lCount = 4
-lDCount = 1
-lUCount = 3
+lDCount = 4
+lUCount = 4
 rCount = 4
 rDCount = 1
-rUCount = 1
+rUCount = 3
 lRCount = 6
 lRDCount = 1
 lRUCount = 1
