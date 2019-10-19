@@ -13,7 +13,7 @@ monster = noone
 offsetX = 0
 offsetY = 0
 alarm_set(0,1)
-depth = -1
+
 
 
 lanceEffect = instance_create_depth(x,y,-5,obj_lanceEffect)
