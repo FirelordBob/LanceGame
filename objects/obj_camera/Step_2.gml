@@ -18,8 +18,8 @@ with(obj_player)
 	}
 	else
 	{
-		other.x = other.x + lengthdir_x(dist*.05,dir)
-		other.y = other.y + lengthdir_y(dist*.05,dir) 
+		other.x = other.x + lengthdir_x(dist*.045,dir)
+		other.y = other.y + lengthdir_y(dist*.045,dir) 
 	}
 	if(image_yscale=.5 && playerHspeed = 0)
 		other.downCount++

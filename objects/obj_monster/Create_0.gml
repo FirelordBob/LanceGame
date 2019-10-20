@@ -17,3 +17,6 @@ currentX = x
 currentY = y
 depth = -8
 timeAlive = 0
+
+if(room != global.roomGame)
+	alarm_set(11,1)
