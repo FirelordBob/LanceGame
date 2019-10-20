@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-var choice = irandom(2)
+
+
+//NOTE: Some choices do NOT create a monster. The default will do nothing.
+var choice = irandom(4)
 
 switch( choice ){
 	
@@ -12,5 +15,7 @@ switch( choice ){
 		break;
 	case 2:
 		room_instance_add(global.roomGame,x + global.roomW*room_width, y + global.roomH*room_height,obj_zombiehard)
+		break;
+	default:
 		break;
 }
