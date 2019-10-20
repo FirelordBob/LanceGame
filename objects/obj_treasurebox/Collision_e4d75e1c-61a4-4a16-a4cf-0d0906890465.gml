@@ -1,4 +1,4 @@
 with other {
-	score += treasurevalue;
-	instance_destroy();
+	score += other.treasurevalue;
 }
+instance_destroy();
