@@ -3,6 +3,7 @@
 with(obj_placeRooms)
 {
 	alarm_set(3,35)
-	spawning = 1	
+	spawning = 1
+	global.level++
 }
 room_goto(roomStart)

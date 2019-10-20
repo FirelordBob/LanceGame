@@ -19,8 +19,8 @@ with(obj_floor)
 	}
 }
 }
-player = instance_create_depth(xx,yy,3,obj_player)
-lance = instance_create_depth(xx,yy,2,obj_lance)
+levelExit = instance_create_depth(xx,yy,depth-1,obj_exit)
+
 var spotFound = 0
 while(!spotFound)
 {
@@ -38,7 +38,8 @@ with(obj_floor)
 	}
 }
 }
-levelExit = instance_create_depth(xx,yy,depth-1,obj_exit)
+player = instance_create_depth(xx,yy,3,obj_player)
+lance = instance_create_depth(xx,yy,2,obj_lance)
 
 with(all)
 {
