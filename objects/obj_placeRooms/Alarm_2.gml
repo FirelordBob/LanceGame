@@ -78,7 +78,7 @@ for(var i = 0; i <= roomsHigh*(roomHeight/48)+1;i++)
 		flr.sprite_index = spriteDR
 
 }
-
+spawning = 0
 
 
 
