@@ -3,12 +3,12 @@
 
 view_visible[0] = true;
 view_enabled = true;
-view_wport[0] = 1440
-view_hport[0] = 960
+view_wport[0] = 1920
+view_hport[0] = 1080
 view_set_camera(0,0)
 camera = camera_create()
 camera_set_view_target(camera,id)
-camera_set_view_speed(camera,5,5)
+camera_set_view_speed(camera,2,2)
 camera_set_view_size(camera, 1080, 720)
 view_set_camera(0,camera)
 

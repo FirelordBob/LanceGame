@@ -266,7 +266,7 @@
             "Key": "2873ebe6-163e-4407-aa77-daf5f2a2e5a7",
             "Value": {
                 "id": "e491d6a9-c44e-4f33-af44-bf75eb90f7e7",
-                "resourcePath": "sprites\\spr_monster0\\spr_monster0.yy",
+                "resourcePath": "sprites\\spr_monsterFlyer\\spr_monsterFlyer.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -642,7 +642,7 @@
             "Key": "82c9fb8e-79cd-4ca8-be04-11b9c2ba81eb",
             "Value": {
                 "id": "7c454a52-480c-4231-be67-a434df7750cd",
-                "resourcePath": "sprites\\spr_monster1\\spr_monster1.yy",
+                "resourcePath": "sprites\\spr_monsterBounce\\spr_monsterBounce.yy",
                 "resourceType": "GMSprite"
             }
         },

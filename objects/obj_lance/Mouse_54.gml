@@ -15,7 +15,6 @@ if(!attached && !tp && !cooldown)
 			part_type_speed(tpPartType, .1, 1, 0, 0);
 			part_type_direction(tpPartType, 0, 360, 0, 2);	
 			part_particles_create(tpParticles, lance.player.x, lance.player.y, tpPartType, 40);
-			lance.player.image_alpha = 0
 		}
 	}
 	

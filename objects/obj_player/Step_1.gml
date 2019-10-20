@@ -8,7 +8,6 @@ upPress = 0
 downPress = 0
 spacePress = 0
 shiftPress = 0
-if(image_alpha == 0 && alarm_get(1) != -1) 
-	alarm_set(1,20)
+
 
 

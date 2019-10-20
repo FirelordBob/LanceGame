@@ -25,5 +25,5 @@ shiftCount = 0
 shiftTime = 100
 camera = instance_create_depth(x,y,depth-1,obj_camera)
 camera.creator = id
-
+image_speed =0
 score = 0;

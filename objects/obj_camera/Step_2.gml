@@ -54,4 +54,4 @@ if(downCount > 20)
 	if(dirBonus < camera_get_view_height(camera)/2)
 		dirBonus += 50
 }
-camera_set_view_pos(camera,x-camera_get_view_width(camera)/2,y-camera_get_view_height(camera)/2 + dirBonus)
+camera_set_view_pos(camera,floor(x-camera_get_view_width(camera)/2),floor(y-camera_get_view_height(camera)/2 + dirBonus))
