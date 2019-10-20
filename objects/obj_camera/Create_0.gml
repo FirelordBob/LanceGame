@@ -9,7 +9,7 @@ view_set_camera(0,0)
 camera = camera_create()
 camera_set_view_target(camera,id)
 camera_set_view_speed(camera,2,2)
-camera_set_view_size(camera, 1080, 720)
+camera_set_view_size(camera, 960, 540)
 view_set_camera(0,camera)
 
 downCount = 0
