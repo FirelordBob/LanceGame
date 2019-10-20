@@ -27,7 +27,10 @@ camera = instance_create_depth(x,y,depth-1,obj_camera)
 camera.creator = id
 image_speed =0
 score = 0;
-
+health = 4
+invulnerable = 0
+invulnerableTime = 0
+death = 0
 with(obj_monster)
 {
 	if(distance_to_object(other) < 200)	
