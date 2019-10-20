@@ -50,33 +50,33 @@ var flr= 0
 for(var i = 0; i <= roomsWide*(roomWidth/48);i++)
 {
 	flr = instance_create_depth(i*48,0,depth,obj_floor)	
-	flr.sprite_index = spriteU
+	flr.highLight = "U"
 	if(i == 0)
-		flr.sprite_index = spriteUL
+		flr.highLight = "UL"
 
 }
 for(var i = 0; i <= roomsWide*(roomWidth/48);i++)
 {
 	flr = instance_create_depth(i*48,roomsHigh*roomHeight+48,depth,obj_floor)	
-	flr.sprite_index = spriteD
+	flr.highLight = "D"
 	if(i == 0)
-		flr.sprite_index = spriteDL
+		flr.highLight = "DL"
 }
 for(var i = 0; i <= roomsHigh*(roomHeight/48)+1;i++)
 {
 	flr = instance_create_depth(0,i*48,depth,obj_floor)	
-	flr.sprite_index = spriteL
+	flr.highLight = "L"
 	if(i == 0)
-		flr.sprite_index = spriteUR
+		flr.highLight = "UR"
 }
 for(var i = 0; i <= roomsHigh*(roomHeight/48)+1;i++)
 {
 	flr = instance_create_depth(roomsWide*roomWidth+48,i*48,depth,obj_floor)	
-	flr.sprite_index = spriteR
+	flr.highLight = "R"
 	if(i == 0)
-		flr.sprite_index = spriteUR
+		flr.highLight ="UR"
 	if(i == roomsHigh*(roomHeight/48)+1)
-		flr.sprite_index = spriteDR
+		flr.highLight = "DR"
 
 }
 spawning = 0

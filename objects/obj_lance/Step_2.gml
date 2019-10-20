@@ -24,7 +24,7 @@ else if(!attached && speed != 0)
 		gravity = 0
 		wallAttach = 1
 	}
-	if(place_meeting(x,y,obj_monster) && !monsterAttach)
+	if(place_meeting(x,y,obj_monster) && !monsterAttach && !wallAttach)
 	{
 		speed = 0
 		gravity = 0	

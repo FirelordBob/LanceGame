@@ -3,7 +3,7 @@
 
 
 //NOTE: Some choices do NOT create a monster. The default will do nothing.
-var choice = irandom(4)
+var choice = irandom(5)
 
 switch( choice ){
 	
@@ -15,6 +15,12 @@ switch( choice ){
 		break;
 	case 2:
 		room_instance_add(global.roomGame,x + global.roomW*room_width, y + global.roomH*room_height,obj_zombiehard)
+		break;
+	case 3:
+		room_instance_add(global.roomGame,x + global.roomW*room_width, y + global.roomH*room_height,obj_bouncer)
+		break;
+	case 4:
+		room_instance_add(global.roomGame,x + global.roomW*room_width, y + global.roomH*room_height,obj_notPirhannaPlant)
 		break;
 	default:
 		break;

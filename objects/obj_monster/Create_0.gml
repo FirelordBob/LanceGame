@@ -16,3 +16,4 @@ vMax = 15
 currentX = x
 currentY = y
 depth = -8
+timeAlive = 0

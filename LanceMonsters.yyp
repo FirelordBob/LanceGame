@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0486c3db-392e-4fae-9a79-aaca4316abc2",
+            "Value": {
+                "id": "d748ed29-fb3d-4547-be2c-969948fae2be",
+                "resourcePath": "objects\\obj_hazard\\obj_hazard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "06d97833-9329-4252-ad4f-c2a4a809f5a9",
             "Value": {
                 "id": "73283d55-58ec-407b-b936-07a22c4b2428",
@@ -626,7 +634,7 @@
             "Key": "77ddf138-9c34-4579-934d-1e3548cfec03",
             "Value": {
                 "id": "42d97814-134c-424e-bb01-f31f98f5160e",
-                "resourcePath": "sprites\\spr_bounce_idle\\spr_bounce_idle.yy",
+                "resourcePath": "sprites\\spr_wallMonsterAttack\\spr_wallMonsterAttack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -935,6 +943,14 @@
             }
         },
         {
+            "Key": "c1bc65bd-8b5b-41b9-9b41-a02b21e497ae",
+            "Value": {
+                "id": "ee898774-9b02-48ef-b3b3-e5783ffe6ba9",
+                "resourcePath": "sprites\\spr_monsterBounceIdle\\spr_monsterBounceIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c2162acc-2b65-4a00-93db-e162d5f0fcc2",
             "Value": {
                 "id": "d53e3562-fb37-4ef1-a080-ec73558b56de",
@@ -971,6 +987,14 @@
             "Value": {
                 "id": "33f34790-7a32-4fab-8662-e8be146e5138",
                 "resourcePath": "objects\\obj_spikespawner\\obj_spikespawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "cb72ac54-626d-401a-8c95-f78f1c68c4f8",
+            "Value": {
+                "id": "693194df-3eaa-49b7-8262-19223d6f60bc",
+                "resourcePath": "objects\\obj_wallMonsterAttack\\obj_wallMonsterAttack.yy",
                 "resourceType": "GMObject"
             }
         },
