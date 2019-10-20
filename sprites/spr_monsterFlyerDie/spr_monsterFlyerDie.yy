@@ -2,7 +2,7 @@
     "id": "7371aa65-2500-4fd0-8665-45bc500971ab",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_monster2",
+    "name": "spr_monsterFlyerDie",
     "For3D": false,
     "HTile": false,
     "VTile": false,

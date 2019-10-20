@@ -562,7 +562,7 @@
             "Key": "7371aa65-2500-4fd0-8665-45bc500971ab",
             "Value": {
                 "id": "147013e9-a698-4ceb-a68b-cd596234ac45",
-                "resourcePath": "sprites\\spr_monster2\\spr_monster2.yy",
+                "resourcePath": "sprites\\spr_monsterFlyerDie\\spr_monsterFlyerDie.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -868,6 +868,14 @@
                 "id": "6432e6c3-16b1-4740-8176-9233050991ce",
                 "resourcePath": "views\\be3b1ddc-c515-45b2-b09f-2d0bed3d8c16.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "beb134cc-ff2e-4864-be4b-096f5b8a5776",
+            "Value": {
+                "id": "8c223598-ca0a-47ad-a9f6-8a73d8d7ac22",
+                "resourcePath": "fonts\\font0\\font0.yy",
+                "resourceType": "GMFont"
             }
         },
         {

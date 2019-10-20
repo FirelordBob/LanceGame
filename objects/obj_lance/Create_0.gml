@@ -12,6 +12,7 @@ monsterAttach = 0
 monster = noone
 offsetX = 0
 offsetY = 0
+wallAttach = 0
 alarm_set(0,1)
 
 

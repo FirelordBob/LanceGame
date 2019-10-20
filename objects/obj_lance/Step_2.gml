@@ -6,6 +6,7 @@ if(!attached && player != noone && place_meeting(x,y,player) && reattach = 1)
 	monsterAttach = 0
 	monster = noone
 	reattach = 0
+	wallAttach = 0
 	tp = 0
 }
 else if(attached)
@@ -20,7 +21,8 @@ else if(!attached && speed != 0)
 	if(place_meeting(x,y,obj_floor))
 	{
 		speed = 0
-		gravity = 0	
+		gravity = 0
+		wallAttach = 1
 	}
 	if(place_meeting(x,y,obj_monster) && !monsterAttach)
 	{
