@@ -13,3 +13,5 @@ aggrodistance = 325
 myplayer = noone;
 
 initialized = false;
+
+lanced = false;
