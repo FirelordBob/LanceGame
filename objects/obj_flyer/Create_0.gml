@@ -4,7 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-image_blend = c_orange;
 
 alarm_set(0,5);
 
