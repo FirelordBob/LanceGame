@@ -16,10 +16,10 @@ up = 0
 
 lCount = 4
 lDCount = 4
-lUCount = 4
+lUCount = 5
 rCount = 4
-rDCount = 2
-rUCount = 4
+rDCount = 4
+rUCount = 5
 lRCount = 6
 lRDCount = 4
 lRUCount = 5

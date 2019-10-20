@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "291c2149-ead1-474a-88a1-e4fe39837e17",
+            "Value": {
+                "id": "2744c078-f830-48d0-bc4f-7a989da38a3a",
+                "resourcePath": "rooms\\roomLU4\\roomLU4.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2a775c1e-ecf9-4827-8a40-c59e1256e7fb",
             "Value": {
                 "id": "696491b0-9dbf-45b4-8e56-ff127e7e760b",
@@ -367,6 +375,14 @@
             }
         },
         {
+            "Key": "4716fc09-fbda-4a4e-b70b-ccc597e37f75",
+            "Value": {
+                "id": "b2be68c0-b007-4e0f-b216-5aa788432e50",
+                "resourcePath": "objects\\obj_zombiehard\\obj_zombiehard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4ca1505b-a0ba-4b5b-995e-71494454bd4b",
             "Value": {
                 "id": "ccad4968-3627-4607-a949-7534051c0446",
@@ -452,6 +468,14 @@
                 "id": "0b7e3681-002c-42a9-8ba7-424c5178bbf7",
                 "resourcePath": "objects\\obj_spikeball\\obj_spikeball.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "59e44120-d4b9-49a5-9cf1-9175ed228446",
+            "Value": {
+                "id": "f09a9318-61b6-4a37-a037-921244c6c7c3",
+                "resourcePath": "rooms\\roomRD2\\roomRD2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -815,6 +839,14 @@
             }
         },
         {
+            "Key": "a972f5a3-dcee-4e4a-85a0-c5d4f20c41d6",
+            "Value": {
+                "id": "61c88825-416e-46bf-be54-37495aa0081e",
+                "resourcePath": "rooms\\roomRD3\\roomRD3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "aa69ce60-cc01-4971-9aeb-13c8d1d28e8b",
             "Value": {
                 "id": "c936497d-1e2c-49a8-8f89-8005b0462d63",
@@ -1028,6 +1060,14 @@
                 "id": "c7ed5fa0-4079-4b5d-948b-e17b31d82751",
                 "resourcePath": "views\\e63ca4dc-57a2-4ac4-97ec-48bc4a3bc6c1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ebca083c-5c4c-4339-89dd-77bd6c2d02a6",
+            "Value": {
+                "id": "b24467d0-e8b7-4caf-a590-c598a0d3a72b",
+                "resourcePath": "rooms\\roomRU4\\roomRU4.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
