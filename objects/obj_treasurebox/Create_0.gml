@@ -1,0 +1,1 @@
+treasurevalue = 10;

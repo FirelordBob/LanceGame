@@ -679,6 +679,14 @@
             }
         },
         {
+            "Key": "89921195-2f22-4f6b-a466-bca972a2339c",
+            "Value": {
+                "id": "07a12b18-958c-4179-bee4-e62286e629d2",
+                "resourcePath": "objects\\obj_treasurebox\\obj_treasurebox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "89d36602-667d-42d6-a45c-5edf258846e9",
             "Value": {
                 "id": "4625856a-ca45-4461-a81f-a96b4f0f0359",
