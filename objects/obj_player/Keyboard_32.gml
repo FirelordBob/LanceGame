@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-spacePress = 1
+if(!death)
+	spacePress = 1

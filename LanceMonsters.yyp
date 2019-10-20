@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "5c249218-709c-4205-8bf1-460875c096f2",
+            "Value": {
+                "id": "eb2f9a7e-5d2a-406d-80fc-aa40a574d282",
+                "resourcePath": "rooms\\roomGameOver\\roomGameOver.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "62bdc98a-cd39-4087-9cb3-2f718f5b210f",
             "Value": {
                 "id": "369ac8f4-e521-4d26-be23-f5dd63e9fc29",
@@ -1119,6 +1127,14 @@
             }
         },
         {
+            "Key": "e6e14af4-9324-4a2f-bb71-1c5bf25051fa",
+            "Value": {
+                "id": "8c3d2901-03f3-468d-8733-b7ca1af9cb10",
+                "resourcePath": "sounds\\snd_theme0\\snd_theme0.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "ebca083c-5c4c-4339-89dd-77bd6c2d02a6",
             "Value": {
                 "id": "b24467d0-e8b7-4caf-a590-c598a0d3a72b",
@@ -1178,7 +1194,7 @@
             "Key": "ff7566eb-df96-49e6-a23b-0aa881f2beeb",
             "Value": {
                 "id": "359d016e-eeac-4feb-8bc0-2f37ead3f04c",
-                "resourcePath": "objects\\obj_init\\obj_init.yy",
+                "resourcePath": "objects\\obj_gui\\obj_gui.yy",
                 "resourceType": "GMObject"
             }
         },
