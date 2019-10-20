@@ -9,3 +9,12 @@ if(place_meeting(x,y,obj_monster))
 	y = currentY
 }
 
+if(place_meeting(x,y,obj_spikes))
+{
+	var enemy = instance_place(x,y,obj_spikes)
+	hsp = sign(x-enemy.x)*hMax
+	vsp = -vMax
+	x = currentX
+	y = currentY
+}
+
