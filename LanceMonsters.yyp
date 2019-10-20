@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "22a015d5-575d-43cd-8386-5ced86f6fb03",
+            "Value": {
+                "id": "ab9bc344-b35a-418f-bc5f-9e5bd249f6aa",
+                "resourcePath": "objects\\obj_flyerspawner\\obj_flyerspawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2873ebe6-163e-4407-aa77-daf5f2a2e5a7",
             "Value": {
                 "id": "e491d6a9-c44e-4f33-af44-bf75eb90f7e7",

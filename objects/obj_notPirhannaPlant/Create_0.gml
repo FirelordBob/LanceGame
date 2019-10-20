@@ -19,3 +19,5 @@ depth = -8
 timeAlive = 0
 attacking = 0
 image_blend = make_color_hsv(irandom(255),120,255)
+
+alarm_set(0,15)
