@@ -15,5 +15,7 @@ if(place_meeting(x,y,obj_monster))
 	}
 	hsp = hMax* sin(dir/(2*pi)) 
 	vsp = vMax* -cos(dir/(2*pi)) 
+	x = currentX
+	y = currentY
 }
 
