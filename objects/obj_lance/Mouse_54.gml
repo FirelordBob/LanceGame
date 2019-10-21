@@ -18,5 +18,5 @@ if(!attached && !tp && !cooldown&& global.hp >0 )
 			part_particles_create(tpParticles, lance.player.x, lance.player.y, tpPartType, 40);
 		}
 	}
-	
+	player.image_alpha = 0
 }

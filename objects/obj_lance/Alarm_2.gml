@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+player.image_alpha = 1
 if(!attached && player != noone)
 {
 	var targetX = x
@@ -8,6 +9,7 @@ if(!attached && player != noone)
 	var closest = 100
 	var newX = x
 	var newY = y
+
 	with(player)
 	{
 		for( var i = -25; i < 25; i++)
