@@ -1,1 +1,1 @@
-text = "Press Space to jump"
+text = "I can press Space to jump!"
