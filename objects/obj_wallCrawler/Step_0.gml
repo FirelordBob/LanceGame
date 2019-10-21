@@ -1,10 +1,8 @@
 switch mode {
 	case "wait":
-		if(distance_to_object(myplayer) < aggrodistance ){
-			mode = "hunt"
-			targetPointX = myplayer.x
-			targetPointY = myplayer.y
-			alarm_set(1,hunttime)
+		if(distance_to_object(myplayer) < aggrodistance && image_speed = 0 ){
+			image_speed = 1
+		
 		}
 		break;
 	case "find":
@@ -13,6 +11,7 @@ switch mode {
 			mode = "recovering"
 			x = walltarget.x + walltarget.sprite_width/2
 			y = walltarget.y + walltarget.sprite_height/2
+			sprite_index = spr_wallCrawlerReturn
 		}
 		break;
 	case "hunt":
