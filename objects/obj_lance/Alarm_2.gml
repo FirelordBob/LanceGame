@@ -25,6 +25,8 @@ if(!attached && player != noone)
 	
 	if(found)
 	{
+		var playerOldX = player.x
+		var playerOldY = player.y
 		player.x = newX
 		player.y = newY
 		player.currentX = newX
@@ -33,10 +35,19 @@ if(!attached && player != noone)
 		player.hsp = hspeed
 		with(player)
 			collision_check()
-			
+		
+		var distTarget = point_distance(playerOldX,playerOldY,newX,newY)
+		var dirTarget = point_direction(playerOldX,playerOldY,newX,newY)
+		for(var i = 0;  i < distTarget; i+=1 )
+		{
+			var checkX = playerOldX + lengthdir_x(i,dirTarget)
+			var checkY = playerOldY + lengthdir_y(i,dirTarget)
+			if(place_meeting(checkX,checkY,obj_monster))
+				instance_destroy(instance_place(checkX,checkY,obj_monster))
+		}
 		with(obj_monster)
 		{
-			if(point_distance(x,y,newX,newY) < 50)	
+			if(point_distance(x,y,newX,newY) < 70)
 				instance_destroy()
 		}
 	}

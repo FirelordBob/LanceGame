@@ -27,7 +27,7 @@ camera = instance_create_depth(x,y,depth-1,obj_camera)
 camera.creator = id
 image_speed =0
 score = 0;
-health = 4
+
 invulnerable = 0
 invulnerableTime = 100
 death = 0

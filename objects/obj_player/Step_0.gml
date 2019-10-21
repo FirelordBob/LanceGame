@@ -9,7 +9,7 @@ if(place_meeting(x,y,obj_monster) && invulnerable == 0 && !death)
 	y = currentY
 	invulnerable = 1
 	image_alpha = .5
-	health--
+	global.hp--
 	alarm_set(0,invulnerableTime)
 }
 
@@ -22,13 +22,13 @@ if(place_meeting(x,y,obj_spikes)&& invulnerable == 1 && !death)
 	y = currentY
 	invulnerable = 1
 	image_alpha = .5
-	health--
+	global.hp--
 	alarm_set(0,invulnerableTime)
 }
 
 
 
-if health = 0
+if global.hp <= 0 && !death
 {
 	death = 1
 	alarm_set(1,150)
