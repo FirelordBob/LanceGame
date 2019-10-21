@@ -3,4 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
-moveSpeed = 1.2
+
+
+moveSpeed = 1.2 + (global.level/10)
