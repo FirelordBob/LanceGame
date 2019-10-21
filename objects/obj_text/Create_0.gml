@@ -3,7 +3,7 @@
 alpha = 0;
 print = "";
 time = 0;
-depth = -40
+depth = 4
 myPlayer = noone;
 with(obj_text) {
 	depth = depth + 1

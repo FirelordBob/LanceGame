@@ -15,4 +15,3 @@ myplayer = noone
 alarm_set(0,10);
 image_speed = 1
 
-lanced = false;

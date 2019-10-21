@@ -3,14 +3,16 @@
 if(place_meeting(x,y,obj_monster) && invulnerable == 0 && !death)
 {
 	var enemy = instance_place(x,y,obj_monster)
-	hsp = sign(x-enemy.x)*hMax
-	vsp = -vMax
-	x = currentX
-	y = currentY
-	invulnerable = 1
-	image_alpha = .5
-	global.hp--
-	alarm_set(0,invulnerableTime)
+	if !(enemy.lanced) {
+		hsp = sign(x-enemy.x)*hMax
+		vsp = -vMax
+		x = currentX
+		y = currentY
+		invulnerable = 1
+		image_alpha = .5
+		global.hp--
+		alarm_set(0,invulnerableTime)
+	}
 }
 
 if(place_meeting(x,y,obj_spikes)&& invulnerable == 0 && !death)
