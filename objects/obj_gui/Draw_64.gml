@@ -12,4 +12,4 @@ draw_set_alpha(1)
 draw_text(40,30,"HP: " + string(global.hp))
 
 draw_text(300,30, "Kills: " + string(global.killCount))
-draw_text(560,30, "Cash: " + string(score))
+draw_text(560,30, "Cash: " + string(global.cash))

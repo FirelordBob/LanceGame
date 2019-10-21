@@ -26,7 +26,7 @@ shiftTime = 100
 camera = instance_create_depth(x,y,depth-1,obj_camera)
 camera.creator = id
 image_speed =0
-score = 0;
+global.cash = 0;
 
 invulnerable = 0
 invulnerableTime = 100
@@ -43,4 +43,3 @@ with(obj_hazard)
 		instance_destroy()
 	
 }
-audio_play_sound(sound0,1,1)

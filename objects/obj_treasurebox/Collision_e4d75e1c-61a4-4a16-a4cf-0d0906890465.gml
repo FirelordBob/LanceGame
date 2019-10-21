@@ -1,4 +1,4 @@
 with other {
-	score += other.treasurevalue;
+	global.cash += other.treasurevalue;
 }
 instance_destroy();
