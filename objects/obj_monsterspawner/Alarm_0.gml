@@ -5,7 +5,7 @@
 var successThreshold = 5*global.level + 25
 if(irandom(100) < successThreshold) {
 
-	switch( irandom(3) ){
+	switch( irandom(4) ){
 	
 		case 0:
 			room_instance_add(global.roomGame,x + global.roomW*room_width, y + global.roomH*room_height,obj_zombie)
@@ -18,6 +18,9 @@ if(irandom(100) < successThreshold) {
 			break;
 		case 3:
 			room_instance_add(global.roomGame,x + global.roomW*room_width, y + global.roomH*room_height,obj_notPirhannaPlant)
+			break;
+		case 4:
+			room_instance_add(global.roomGame,x + global.roomW*room_width, y + global.roomH*room_height,obj_wallCrawler)
 			break;
 		default:
 			break;
