@@ -49,3 +49,5 @@ with(obj_hazard)
 		instance_destroy()
 	
 }
+
+depth = -300

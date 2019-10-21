@@ -19,3 +19,5 @@ alarm_set(0,1)
 
 lanceEffect = instance_create_depth(x,y,-5,obj_lanceEffect)
 	lanceEffect.lance = other.id
+	
+depth = -200
