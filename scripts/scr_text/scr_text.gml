@@ -15,8 +15,11 @@ with (txt){
 
  draw_set_font(font);
 
- text_width = 0.4* string_width_ext(text, font_size+(font_size/2), maxlength);
- text_height = 0.4* string_height_ext(text, font_size+(font_size/2), maxlength);
+ textMultiplier = 0.4
+
+ 
+ text_width = textMultiplier* string_width_ext(text, font_size+(font_size/2), maxlength);
+ text_height = textMultiplier* string_height_ext(text, font_size+(font_size/2), maxlength);
 
  boxwidth = text_width + (padding*2);
  boxheight = text_height + (padding*2);
