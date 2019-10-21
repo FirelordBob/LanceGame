@@ -37,6 +37,12 @@ with(obj_monster)
 		instance_destroy()
 	
 }
+with(obj_notPirhannaPlant)
+{
+	if(distance_to_object(other) < 200)	
+		instance_destroy()
+	
+}
 with(obj_hazard)
 {
 	if(distance_to_object(other) < 400)	

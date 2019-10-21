@@ -21,4 +21,6 @@ if(timeAlive > 5 && !selfDestruct)
 	global.killCount++
 	if(global.killCount mod 10 = 0)
 		global.hp++
+		
+	audio_play_sound(snd_death,0,0)
 }
