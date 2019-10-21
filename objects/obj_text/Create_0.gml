@@ -8,4 +8,5 @@ myPlayer = noone;
 with(obj_text) {
 	depth = depth + 1
 }
-alarm_set(1,300)
+if room == roomTutorial
+	alarm_set(1,300)
