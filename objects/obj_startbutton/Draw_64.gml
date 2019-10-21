@@ -3,7 +3,7 @@ draw_set_halign(fa_left)
 draw_set_valign(fa_middle)
 draw_set_font(font0)
 
-draw_text_transformed(5800,100,"The Magic Lance",2,2,image_angle)
+draw_text_transformed(550,120,"The Magic Lance",2,2,image_angle)
 draw_text(600,1000,"Press Escape to quit")
 draw_text(600,900,"Press Backspace to return to this menu")
 
