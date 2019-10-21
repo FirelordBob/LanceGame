@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "0ff2febc-81bc-4a91-8349-bacedbe2bcca",
+            "Value": {
+                "id": "0c1c8a5f-971c-4d9d-b025-483bccdc3534",
+                "resourcePath": "sprites\\spr_spawntreasure1\\spr_spawntreasure1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0ff3a08d-ae1a-4f43-bc01-054130bd1bf8",
             "Value": {
                 "id": "f9b7b73f-3f33-4849-8886-9c82d5785d41",
@@ -1164,6 +1172,14 @@
                 "id": "97f7de8c-fca1-469d-82a3-b7c71ff084d2",
                 "resourcePath": "sprites\\spr_spawntreasure\\spr_spawntreasure.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c0cf70b3-f55b-4ca8-ba3b-792780dfb81b",
+            "Value": {
+                "id": "d7fc1dab-8d83-47bf-9495-dc8cd14fbea1",
+                "resourcePath": "sounds\\snd_thud\\snd_thud.yy",
+                "resourceType": "GMSound"
             }
         },
         {

@@ -38,8 +38,8 @@ with(obj_floor)
 	}
 }
 }
-player = instance_create_depth(xx,yy,-300,obj_player)
-lance = instance_create_depth(xx,yy,-200,obj_lance)
+player = instance_create_depth(xx,yy,3,obj_player)
+lance = instance_create_depth(xx,yy,2,obj_lance)
 
 with(all)
 {
