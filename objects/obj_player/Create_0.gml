@@ -29,7 +29,7 @@ image_speed =0
 score = 0;
 health = 4
 invulnerable = 0
-invulnerableTime = 0
+invulnerableTime = 100
 death = 0
 with(obj_monster)
 {
@@ -43,3 +43,4 @@ with(obj_hazard)
 		instance_destroy()
 	
 }
+audio_play_sound(sound0,1,1)

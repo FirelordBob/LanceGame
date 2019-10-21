@@ -1,33 +1,32 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(place_meeting(x,y,obj_monster) && invulnerable <= 0)
+if(place_meeting(x,y,obj_monster) && invulnerable == 0 && !death)
 {
 	var enemy = instance_place(x,y,obj_monster)
 	hsp = sign(x-enemy.x)*hMax
 	vsp = -vMax
 	x = currentX
 	y = currentY
-	invulnerable = invulnerableTime
+	invulnerable = 1
 	image_alpha = .5
 	health--
+	alarm_set(0,invulnerableTime)
 }
 
-if(place_meeting(x,y,obj_spikes)&& invulnerable <= 0)
+if(place_meeting(x,y,obj_spikes)&& invulnerable == 1 && !death)
 {
 	var enemy = instance_place(x,y,obj_spikes)
 	hsp = sign(x-enemy.x)*hMax
 	vsp = -vMax
 	x = currentX
 	y = currentY
-	invulnerable = invulnerableTime
+	invulnerable = 1
 	image_alpha = .5
 	health--
+	alarm_set(0,invulnerableTime)
 }
 
-if(invulnerable > 0)
-	invulnerable--
-else if(!death)
-	image_alpha = 1
+
 
 if health = 0
 {
