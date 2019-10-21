@@ -18,4 +18,7 @@ if(timeAlive > 5 && !selfDestruct)
 	part_type_size(type,1,3,0,0)
 	part_particles_create(system, x + 0, y + 0, type, 80);
 	instance_destroy(parent)
+	global.killCount++
+	if(global.killCount mod 10 = 0)
+		global.hp++
 }

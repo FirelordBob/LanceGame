@@ -13,7 +13,7 @@ if(place_meeting(x,y,obj_monster) && invulnerable == 0 && !death)
 	alarm_set(0,invulnerableTime)
 }
 
-if(place_meeting(x,y,obj_spikes)&& invulnerable == 1 && !death)
+if(place_meeting(x,y,obj_spikes)&& invulnerable == 0 && !death)
 {
 	var enemy = instance_place(x,y,obj_spikes)
 	hsp = sign(x-enemy.x)*hMax
