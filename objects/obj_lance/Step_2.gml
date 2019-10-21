@@ -23,6 +23,7 @@ else if(!attached && speed != 0)
 		speed = 0
 		gravity = 0
 		wallAttach = 1
+		audio_play_sound(snd_thud,0,0)
 	}
 	if(place_meeting(x,y,obj_monster) && !monsterAttach && !wallAttach)
 	{
@@ -32,6 +33,7 @@ else if(!attached && speed != 0)
 		monster = instance_place(x,y,obj_monster)
 		offsetX = monster.x - x
 		offsetY = monster.y - y
+		audio_play_sound(snd_thud,0,0)
 	}
 }
 if(instance_exists(monster))
