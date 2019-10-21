@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0156206c-6d47-49ee-b770-0b2e18947f5f",
+            "Value": {
+                "id": "8790902c-e3be-431b-a72c-f7153f7c31d6",
+                "resourcePath": "sprites\\spr_wallCrawlerReturn\\spr_wallCrawlerReturn.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "038d42af-5ed1-4149-8a5b-1d62a6b9f8c7",
             "Value": {
                 "id": "e2d0d6eb-1e80-46d4-9689-d7b52264f250",
@@ -228,6 +236,14 @@
                 "id": "ca6ba81d-bdf9-4103-8e49-44a7d0f980f1",
                 "resourcePath": "objects\\obj_lance\\obj_lance.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "19780fc1-fa55-4200-b484-0a51f498b6c0",
+            "Value": {
+                "id": "36d95635-7ddf-436c-9593-5621ddaf9f52",
+                "resourcePath": "sprites\\spr_wallCrawlerAttack\\spr_wallCrawlerAttack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -463,6 +479,14 @@
             }
         },
         {
+            "Key": "4c91fc4f-c7d5-4d46-9b63-2a14609e1ffe",
+            "Value": {
+                "id": "c4f82a7b-4c3b-4877-b0d6-9bb93218d06d",
+                "resourcePath": "sprites\\spr_wallCrawler\\spr_wallCrawler.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4ca1505b-a0ba-4b5b-995e-71494454bd4b",
             "Value": {
                 "id": "ccad4968-3627-4607-a949-7534051c0446",
@@ -516,6 +540,14 @@
                 "id": "3a189fdc-8b3a-4260-b3b4-15e73b0bbd2b",
                 "resourcePath": "views\\5117fffb-ee7f-47ef-87a2-7cef9f6bfc5d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "548f8531-6de0-4a4d-a131-7b624fed84ae",
+            "Value": {
+                "id": "c623b39a-449a-4f57-9c57-eff8cb951332",
+                "resourcePath": "sprites\\spr_wallCrawlerDeath\\spr_wallCrawlerDeath.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -13,3 +13,4 @@ waittime = 200;
 moveSpeed = 2.6;
 myplayer = noone
 alarm_set(0,10);
+image_speed = 0
