@@ -2,6 +2,7 @@
 // You can write your code in this editor
 if(!attached && !tp && !cooldown&& global.hp >0 )
 {
+	audio_play_sound(snd_teleport,0,0)
 	alarm_set(2,tpDelay)
 	with(lanceEffect)
 	{

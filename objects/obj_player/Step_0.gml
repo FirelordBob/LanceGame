@@ -31,7 +31,7 @@ if(place_meeting(x,y,obj_spikes)&& invulnerable == 0 && !death)
 if global.hp <= 0 && !death
 {
 	death = 1
-	alarm_set(1,150)
+	alarm_set(1,80)
 		system = part_system_create_layer("Instances", 0);
 
 	type = part_type_create();
