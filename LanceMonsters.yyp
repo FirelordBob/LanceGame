@@ -1023,6 +1023,14 @@
             }
         },
         {
+            "Key": "9b9717de-1376-4c31-a89a-f60d6ceb9b99",
+            "Value": {
+                "id": "b11f2741-0f72-4533-a563-cd1c703526a7",
+                "resourcePath": "objects\\obj_coin\\obj_coin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9bf64729-233c-4188-8c76-7f958076aee0",
             "Value": {
                 "id": "19bebdc2-1825-45b4-bb44-60b493264b0b",
