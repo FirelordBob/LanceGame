@@ -50,4 +50,4 @@ with(obj_hazard)
 	
 }
 
-depth = -300
+depth = 3
