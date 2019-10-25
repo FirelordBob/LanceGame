@@ -1,2 +1,2 @@
-text = "Waiting here is boring. I'll press S and D to move."
+text = "Waiting here is boring. I'll press A and D to move."
 textY = y - 70

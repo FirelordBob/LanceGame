@@ -28,12 +28,13 @@ if(place_meeting(x,y,obj_spikes)&& invulnerable == 0 && !death)
 	alarm_set(0,invulnerableTime)
 }
 
-
+if(y > room_height*2)
+	global.hp = 0
 
 if global.hp <= 0 && !death
 {
 	death = 1
-	alarm_set(1,80)
+	alarm_set(1,40)
 		system = part_system_create_layer("Instances", 0);
 
 	type = part_type_create();

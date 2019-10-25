@@ -4,11 +4,11 @@ randomize()
 spawning = 1
 global.roomW = 0
 global.roomH = 0
-roomsWide = 4
-roomWidth = 720
-roomsHigh = 4
-roomHeight = 480
-
+roomsWide = 2
+roomWidth = 2880
+roomsHigh = 1
+roomHeight = 960
+HCount = 3
 left = 0
 right = 0
 down = 0
