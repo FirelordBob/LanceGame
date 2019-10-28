@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(!attached && !tp && !cooldown&& global.hp >0 )
+if(!attached && !tp && !cooldown&& global.hp >0)
 {
 	audio_play_sound(snd_teleport,0,0)
 	alarm_set(2,tpDelay)
@@ -18,5 +18,6 @@ if(!attached && !tp && !cooldown&& global.hp >0 )
 			part_particles_create(tpParticles, lance.player.x, lance.player.y, tpPartType, 40);
 		}
 	}
-	
+	player.image_alpha = 0
+	player.tpUse++
 }

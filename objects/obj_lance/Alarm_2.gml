@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+player.image_alpha = 1
 if(!attached && player != noone)
 {
 	var targetX = x
@@ -8,6 +9,7 @@ if(!attached && player != noone)
 	var closest = 100
 	var newX = x
 	var newY = y
+
 	with(player)
 	{
 		for( var i = -25; i < 25; i++)
@@ -43,7 +45,17 @@ if(!attached && player != noone)
 			var checkX = playerOldX + lengthdir_x(i,dirTarget)
 			var checkY = playerOldY + lengthdir_y(i,dirTarget)
 			if(place_meeting(checkX,checkY,obj_monster))
+			{
 				instance_destroy(instance_place(checkX,checkY,obj_monster))
+				player.tpUse = 1	
+			}
+			if(place_meeting(checkX,checkY,obj_treasurebox))
+			{
+				var treasure = instance_place(checkX,checkY,obj_treasurebox)
+				global.cash += treasure.treasurevalue;
+				instance_destroy(treasure);
+				audio_play_sound(snd_coin,0,0)	
+			}
 		}
 		with(obj_monster)
 		{
@@ -61,7 +73,7 @@ if(!attached && player != noone)
 	}
 	tp = 0
 	cooldown = 1
-	alarm_set(3,cooldownTime)
+	alarm_set(3,cooldownTime + player.tpStale*player.tpUse)
 	var dir = 0
 	var dist = 0
 	with(lanceEffect)

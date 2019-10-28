@@ -69,6 +69,7 @@ if(position_meeting(bbox_left,bbox_top-1,obj_floor)||position_meeting(bbox_right
 if((position_meeting(bbox_left,bbox_bottom+1,obj_floor)||position_meeting(bbox_right,bbox_bottom+1,obj_floor))) 
 {
 	onGround = coyoteTime 
+	tpUse = 1
 	y = currentY
 	while(!(position_meeting(bbox_left,bbox_bottom+1,obj_floor)||position_meeting(bbox_right,bbox_bottom+1,obj_floor)  ))
 		y++
